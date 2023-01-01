@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <header
+          role="banner"
+        >
+          <button
+            class="btn btn-outline btn-accent sm:absolute left-5 top-5"
+            id="homeButton"
+          >
+            Home
+          </button>
+          <h1
+            aria-label="Book-Title"
+            class="text-center text-6xl p-5 text-accent"
+            id="title"
+          >
+            Harry Potter and the Philosopher's Stone
+          </h1>
+          <p
+            class="text-lg text-center"
+          >
+            Author: 
+            J. K. Rowling
+          </p>
+        </header>
+        <div
+          class="flex flex-col mt-32 items-center"
+          role="main"
+        >
+          <section
+            class="text-white stats shadow min-w-[60vw] flex flex-col sm:flex-row"
+          >
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of a calendar"
+                  class="object-scale-down"
+                  src="/year.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Year
+              </h2>
+              <p
+                class="stat-value"
+              >
+                1997
+              </p>
+              <small
+                class="stat-desc"
+              >
+                A modern piece of literature
+              </small>
+            </div>
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary  w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of pages"
+                  class="object-scale-down"
+                  src="/pages.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Pages
+              </h2>
+              <p
+                class="stat-value"
+              >
+                250
+              </p>
+              <small
+                class="stat-desc"
+              >
+                A light read!
+              </small>
+            </div>
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary  w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of speech bubbles"
+                  class="object-scale-down"
+                  src="/language.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Language
+              </h2>
+              <p
+                class="stat-value"
+              >
+                english
+              </p>
+            </div>
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary  w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of a globe"
+                  class="object-scale-down"
+                  src="/country.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Country
+              </h2>
+              <p
+                class="stat-value"
+              >
+                England
+              </p>
+            </div>
+          </section>
+          <a
+            class="text-lg hover:underline text-primary mt-11 focus:outline-accent-focus"
+            href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+            id="wikipedia"
+          >
+            Read more at Wikipedia
+          </a>
+          <div
+            class="flex flex-col items-center w-full mt-20 mb-20"
+          >
+            <textarea
+              aria-label="Text box to write your comment about the book"
+              class="bg-white text-black placeholder-black textarea textarea-bordered w-[95vw] sm:w-1/2 h-30 focus:outline-accent-focus"
+              id="commentTextArea"
+              placeholder="What do you think about this book?"
+            />
+            <button
+              class="mt-5 btn btn-accent"
+              id="commentSubmitButton"
+            >
+              Submit
+            </button>
+            <h2
+              class="mt-14 text-2xl mb-5"
+            >
+              Comment Section
+            </h2>
+            <ul
+              aria-label="commentsection"
+              class="flex flex-col items-center w-full"
+            >
+              <li
+                aria-label="comment"
+                class="p-4 m-1 bg-[#B3C5EF] rounded-xl text-black w-[95vw] sm:w-1/2"
+              >
+                Veldig fin bok!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <header
+          role="banner"
+        >
+          <button
+            class="btn btn-outline btn-accent sm:absolute left-5 top-5"
+            id="homeButton"
+          >
+            Home
+          </button>
+          <h1
+            aria-label="Book-Title"
+            class="text-center text-6xl p-5 text-accent"
+            id="title"
+          >
+            Harry Potter and the Philosopher's Stone
+          </h1>
+          <p
+            class="text-lg text-center"
+          >
+            Author: 
+            J. K. Rowling
+          </p>
+        </header>
+        <div
+          class="flex flex-col mt-32 items-center"
+          role="main"
+        >
+          <section
+            class="text-white stats shadow min-w-[60vw] flex flex-col sm:flex-row"
+          >
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of a calendar"
+                  class="object-scale-down"
+                  src="/year.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Year
+              </h2>
+              <p
+                class="stat-value"
+              >
+                1997
+              </p>
+              <small
+                class="stat-desc"
+              >
+                A modern piece of literature
+              </small>
+            </div>
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary  w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of pages"
+                  class="object-scale-down"
+                  src="/pages.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Pages
+              </h2>
+              <p
+                class="stat-value"
+              >
+                250
+              </p>
+              <small
+                class="stat-desc"
+              >
+                A light read!
+              </small>
+            </div>
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary  w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of speech bubbles"
+                  class="object-scale-down"
+                  src="/language.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Language
+              </h2>
+              <p
+                class="stat-value"
+              >
+                english
+              </p>
+            </div>
+            <div
+              class="stat place-items-center"
+            >
+              <figure
+                class="stat-figure text-secondary  w-[32px] h-[32px]"
+              >
+                <img
+                  alt="icon of a globe"
+                  class="object-scale-down"
+                  src="/country.svg"
+                />
+              </figure>
+              <h2
+                class="stat-title"
+              >
+                Country
+              </h2>
+              <p
+                class="stat-value"
+              >
+                England
+              </p>
+            </div>
+          </section>
+          <a
+            class="text-lg hover:underline text-primary mt-11 focus:outline-accent-focus"
+            href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+            id="wikipedia"
+          >
+            Read more at Wikipedia
+          </a>
+          <div
+            class="flex flex-col items-center w-full mt-20 mb-20"
+          >
+            <textarea
+              aria-label="Text box to write your comment about the book"
+              class="bg-white text-black placeholder-black textarea textarea-bordered w-[95vw] sm:w-1/2 h-30 focus:outline-accent-focus"
+              id="commentTextArea"
+              placeholder="What do you think about this book?"
+            />
+            <button
+              class="mt-5 btn btn-accent"
+              id="commentSubmitButton"
+            >
+              Submit
+            </button>
+            <h2
+              class="mt-14 text-2xl mb-5"
+            >
+              Comment Section
+            </h2>
+            <ul
+              aria-label="commentsection"
+              class="flex flex-col items-center w-full"
+            >
+              <li
+                aria-label="comment"
+                class="p-4 m-1 bg-[#B3C5EF] rounded-xl text-black w-[95vw] sm:w-1/2"
+              >
+                Veldig fin bok!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <header
+        role="banner"
+      >
+        <button
+          class="btn btn-outline btn-accent sm:absolute left-5 top-5"
+          id="homeButton"
+        >
+          Home
+        </button>
+        <h1
+          aria-label="Book-Title"
+          class="text-center text-6xl p-5 text-accent"
+          id="title"
+        >
+          Harry Potter and the Philosopher's Stone
+        </h1>
+        <p
+          class="text-lg text-center"
+        >
+          Author: 
+          J. K. Rowling
+        </p>
+      </header>
+      <div
+        class="flex flex-col mt-32 items-center"
+        role="main"
+      >
+        <section
+          class="text-white stats shadow min-w-[60vw] flex flex-col sm:flex-row"
+        >
+          <div
+            class="stat place-items-center"
+          >
+            <figure
+              class="stat-figure text-secondary w-[32px] h-[32px]"
+            >
+              <img
+                alt="icon of a calendar"
+                class="object-scale-down"
+                src="/year.svg"
+              />
+            </figure>
+            <h2
+              class="stat-title"
+            >
+              Year
+            </h2>
+            <p
+              class="stat-value"
+            >
+              1997
+            </p>
+            <small
+              class="stat-desc"
+            >
+              A modern piece of literature
+            </small>
+          </div>
+          <div
+            class="stat place-items-center"
+          >
+            <figure
+              class="stat-figure text-secondary  w-[32px] h-[32px]"
+            >
+              <img
+                alt="icon of pages"
+                class="object-scale-down"
+                src="/pages.svg"
+              />
+            </figure>
+            <h2
+              class="stat-title"
+            >
+              Pages
+            </h2>
+            <p
+              class="stat-value"
+            >
+              250
+            </p>
+            <small
+              class="stat-desc"
+            >
+              A light read!
+            </small>
+          </div>
+          <div
+            class="stat place-items-center"
+          >
+            <figure
+              class="stat-figure text-secondary  w-[32px] h-[32px]"
+            >
+              <img
+                alt="icon of speech bubbles"
+                class="object-scale-down"
+                src="/language.svg"
+              />
+            </figure>
+            <h2
+              class="stat-title"
+            >
+              Language
+            </h2>
+            <p
+              class="stat-value"
+            >
+              english
+            </p>
+          </div>
+          <div
+            class="stat place-items-center"
+          >
+            <figure
+              class="stat-figure text-secondary  w-[32px] h-[32px]"
+            >
+              <img
+                alt="icon of a globe"
+                class="object-scale-down"
+                src="/country.svg"
+              />
+            </figure>
+            <h2
+              class="stat-title"
+            >
+              Country
+            </h2>
+            <p
+              class="stat-value"
+            >
+              England
+            </p>
+          </div>
+        </section>
+        <a
+          class="text-lg hover:underline text-primary mt-11 focus:outline-accent-focus"
+          href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+          id="wikipedia"
+        >
+          Read more at Wikipedia
+        </a>
+        <div
+          class="flex flex-col items-center w-full mt-20 mb-20"
+        >
+          <textarea
+            aria-label="Text box to write your comment about the book"
+            class="bg-white text-black placeholder-black textarea textarea-bordered w-[95vw] sm:w-1/2 h-30 focus:outline-accent-focus"
+            id="commentTextArea"
+            placeholder="What do you think about this book?"
+          />
+          <button
+            class="mt-5 btn btn-accent"
+            id="commentSubmitButton"
+          >
+            Submit
+          </button>
+          <h2
+            class="mt-14 text-2xl mb-5"
+          >
+            Comment Section
+          </h2>
+          <ul
+            aria-label="commentsection"
+            class="flex flex-col items-center w-full"
+          >
+            <li
+              aria-label="comment"
+              class="p-4 m-1 bg-[#B3C5EF] rounded-xl text-black w-[95vw] sm:w-1/2"
+            >
+              Veldig fin bok!
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

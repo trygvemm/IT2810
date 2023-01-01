@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = "mongodb://admin:gruppe57mongo@129.241.104.154:27017/admin"
+}
+model books {
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  author    String
+  country   String
+  imageLink String
+  language  String
+  link      String
+  pages     Int
+  title     String
+  year      Int
+  comments comments[]
+}
+
+model comments {
+  id  String @id @default(auto()) @map("_id") @db.ObjectId
+  text  String
+  book books @relation(fields: [bookId], references: [id])
+  bookId String 
+}
